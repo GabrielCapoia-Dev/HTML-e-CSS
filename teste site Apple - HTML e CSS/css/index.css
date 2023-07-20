@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    width: 100%;
+    background-color: rgb(84, 84, 84);
+
+}
+
+body {
+    background-color: rgb(193, 189, 189);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+}
+
+
+.logo {
+    width: 10%;
+}
+
+.logo a img {
+    width: 110px;
+}
+
+.lista ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.lista ul li {
+    text-align: center;
+    list-style: none;
+    margin-top: 5%;
+    margin-right: 1%;
+    padding: 0 15%;
+    margin-left: -10%;
+
+
+
+}
+
+.lista a {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: large;
+}
+
+.navegacao {
+    padding: 2% 25%;
+}
+
+.grid {
+
+    display: inline-grid;
+    grid-template-columns: 20% 20% 20% 20% 20%
+}
+
+.coluna {
+    text-align: center;
+    padding: 60px 20px;
+
+
+
+
+}
+
+.coluna a img {
+    width: 200px;
+}
+
+.corpo {
+    text-align: center;
+    width: 100%;
+    margin-top: 4%;
+    background-color: rgb(193, 189, 189);
+}
+
+.coluna a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.preco {
+    padding: 20px;
+    font-size: 20pt;
+
+}
+
+.bottom p {
+    margin-top: 15px;
+    font-size: 18pt;
+    border: 1px solid #063cff;
+    border-radius: 10% 50%;
+    background-color: #063cff;
+    color: white;
+
+}
+
+.nomeproduto {
+    font-size: 18pt;
+}
+
+.descricao {
+    margin-top: 10px;
+    font-size: small;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.capsula img {
+
+    margin-left: 8%;
+
+}
+
+.imagem-mac2 {
+    margin-top: 120px;
+}
+
+h1 {
+    text-transform: uppercase;
+
+}
+
+.capsula p {
+    text-transform: uppercase;
+    font-size: 36pt;
+    margin-left: 40%;
+    width: 100px;
+}
+
+.teste {
+    height: 650px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+
+}
+
+.teste-img {
+    text-align: left;
+    margin-left: 5%;
+
+
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 36pt;
+    height: 25%;
+
+
+}
+
+.teste p {
+    color: white;
+}
+
+.teste-h2 {
+    padding: 10%;
+}
+
+.teste-h2 p {
+    text-transform: uppercase;
+    font-size: large;
+}
